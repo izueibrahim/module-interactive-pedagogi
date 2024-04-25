@@ -1,0 +1,135 @@
+/*******************************/
+/* COLOUR PALETTE */
+/*******************************/
+:root {
+  --black: #000000;
+  --white: #FFFFFF;
+
+  --grey-01: #E4E4E4;
+
+  --light-primary-01: #F4F7EB;
+  --light-primary-02: #E9F0D8;
+  --light-primary-03: #C9DB9E;
+  --light-primary-04: #B4CC77;
+  --light-primary-05: #A9C563;
+  --light-primary-06: #94B73D;
+
+  --dark-primary-01: #EBEFE7;
+  --dark-primary-02: #4B702F;
+  --dark-primary-03: #386118;
+  --dark-primary-04: #2C4D13;
+  --dark-primary-05: #20380E;
+  --dark-primary-06: #152409;
+
+  --secondary-01-01: #F0F7F8;
+  --secondary-01-02: #D2E7EC;
+  --secondary-01-03: #98C8D4;
+  --secondary-01-04: #7AB8C8;
+  --secondary-01-05: #6CB1C2;
+  --secondary-01-06: #4A9DB1;
+
+  --secondary-02-01: #FDF5EC;
+  --secondary-02-02: #F9E1C6;
+  --secondary-02-03: #F2BA7A;
+  --secondary-02-04: #F0B067;
+  --secondary-02-05: #EEA654;
+  --secondary-02-06: #ED9D42;
+
+  --complimentary-01-01: #FCFDED;
+  --complimentary-01-02: #F7F9CF;
+  --complimentary-01-03: #EEF4A4;
+  --complimentary-01-04: #E2ED6E;
+  --complimentary-01-05: #D8E637;
+
+  --complimentary-02-01: #FBEFF9;
+  --complimentary-02-02: #F7DEF2;
+  --complimentary-02-03: #ECACDF;
+  --complimentary-02-04: #E17ACC;
+  --complimentary-02-05: #D548B9;
+
+  --accent-02: #F5F5F5;
+  --accent-03: #E4E4E4;
+  --accent-04: #D6D6D6;
+  --accent-05: #141414;
+}
+
+.black { color: var(--black);}
+.white { color: var(--white);}
+
+.light-primary-01 { color: var(--light-primary-01);}
+.light-primary-02 { color: var(--light-primary-02);}
+.light-primary-03 { color: var(--light-primary-03);}
+.light-primary-04 { color: var(--light-primary-04);}
+.light-primary-05 { color: var(--light-primary-05);}
+.light-primary-06 { color: var(--light-primary-06);}
+
+.dark-primary-01 { color: var(--dark-primary-01);}
+.dark-primary-02 { color: var(--dark-primary-02);}
+.dark-primary-03 { color: var(--dark-primary-03);}
+.dark-primary-04 { color: var(--dark-primary-04);}
+.dark-primary-05 { color: var(--dark-primary-05);}
+.dark-primary-06 { color: var(--dark-primary-06);}
+
+.secondary-01-01 { color: var(--secondary-01-01);}
+.secondary-01-02 { color: var(--secondary-01-02);}
+.secondary-01-03 { color: var(--secondary-01-03);}
+.secondary-01-04 { color: var(--secondary-01-04);}
+.secondary-01-05 { color: var(--secondary-01-05);}
+.secondary-01-06 { color: var(--secondary-01-06);}
+
+.secondary-02-01 { color: var(--secondary-02-01);}
+.secondary-02-02 { color: var(--secondary-02-02);}
+.secondary-02-03 { color: var(--secondary-02-03);}
+.secondary-02-04 { color: var(--secondary-02-04);}
+.secondary-02-05 { color: var(--secondary-02-05);}
+.secondary-02-06 { color: var(--secondary-02-06);}
+
+.complimentary-01-01 { color: var(--complimentary-01-01);}
+.complimentary-01-02 { color: var(--complimentary-01-02);}
+.complimentary-01-03 { color: var(--complimentary-01-03);}
+.complimentary-01-04 { color: var(--complimentary-01-04);}
+.complimentary-01-05 { color: var(--complimentary-01-05);}
+
+.complimentary-02-01 { color: var(--complimentary-02-01);}
+.complimentary-02-02 { color: var(--complimentary-02-02);}
+.complimentary-02-03 { color: var(--complimentary-02-03);}
+.complimentary-02-04 { color: var(--complimentary-02-04);}
+.complimentary-02-05 { color: var(--complimentary-02-05);}
+
+.accent-02 { color: var(--accent-02);}
+.accent-03 { color: var(--accent-03);}
+.accent-04 { color: var(--accent-04);}
+.accent-05 { color: var(--accent-05);}
+
+
+.hero-container-bg-color {
+  background-color: var(--light-primary-01);
+}
+
+.bg-color-light-primary-01 {
+  background-color: var(--light-primary-01);
+}
+
+.bg-color-dark-primary-05 {
+  background-color: var(--dark-primary-05);
+}
+
+.bg-color-complimentary-01-02 {
+  background-color: var(--complimentary-01-02);
+}
+
+.bg-grad-01 { background-image: linear-gradient(180deg, var(--secondary-02-01), var(--light-primary-01));}
+
+.border-color-dark-primary-06 {
+  border-color: var(--dark-primary-06);
+}
+
+.border-color-complimentary-01-05 {
+  border-color: var(--complimentary-01-05);
+}
+
+blockquote p::before,
+blockquote p::after {
+   color: var(--dark-primary-03);
+}
+
