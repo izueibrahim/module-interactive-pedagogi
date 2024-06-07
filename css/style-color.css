@@ -128,8 +128,5 @@
   border-color: var(--complimentary-01-05);
 }
 
-blockquote p::before,
-blockquote p::after {
-   color: var(--dark-primary-03);
-}
+
 
